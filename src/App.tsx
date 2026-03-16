@@ -135,7 +135,7 @@ const Pricing = () => {
           <div className="bg-white dark:bg-slate-800 p-8 rounded-2xl border border-slate-200 dark:border-slate-700 flex flex-col hover:shadow-xl transition-shadow">
             <h4 className="font-bold text-lg mb-2">Startup</h4>
             <div className="flex items-baseline gap-1 mb-6">
-              <span className="text-4xl font-black text-primary">$60</span>
+              <span className="text-4xl font-black text-primary">$80</span>
               <span className="text-slate-500 text-sm">/ once</span>
             </div>
             <ul className="space-y-4 mb-8 flex-grow text-sm">
@@ -392,17 +392,6 @@ const Footer = () => (
             <span className="text-xl font-extrabold tracking-tight">primeWeb.studios</span>
           </div>
           <p className="text-white/70">Start Your Business Website Today! The digital revolution is here, and we're helping Zimbabwean companies lead the way.</p>
-          <div className="flex gap-4">
-            <a className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors" href="#">
-              <Twitter className="w-5 h-5 fill-current" />
-            </a>
-            <a className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors" href="#">
-              <Instagram className="w-5 h-5" />
-            </a>
-            <a className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors" href="#">
-              <Linkedin className="w-5 h-5 fill-current" />
-            </a>
-          </div>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-8">
           <div className="space-y-4">
