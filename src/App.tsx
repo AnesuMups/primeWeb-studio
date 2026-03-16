@@ -201,7 +201,7 @@ const Pricing = () => {
 const Portfolio = () => {
   const projects = [
     {
-      img: "/692626d9-641d-4be8-8996-27faef03c6ef",
+      img: "/darts.jpeg",
       category: "Sports & Culture",
       title: "Harare Darts Association",
       link: "https://harare-darts-association.vercel.app/"
