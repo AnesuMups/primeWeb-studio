@@ -151,7 +151,7 @@ const Pricing = () => {
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-white text-[10px] font-black px-4 py-1 rounded-full uppercase tracking-widest">Best Seller</div>
             <h4 className="font-bold text-lg mb-2 text-white">Small Business</h4>
             <div className="flex items-baseline gap-1 mb-6 text-white">
-              <span className="text-4xl font-black">$100</span>
+              <span className="text-4xl font-black">$150</span>
               <span className="text-white/60 text-sm">/ once</span>
             </div>
             <ul className="space-y-4 mb-8 flex-grow text-sm text-white/90">
@@ -201,7 +201,7 @@ const Pricing = () => {
 const Portfolio = () => {
   const projects = [
     {
-      img: "/images (2).jpg",
+      img: "/692626d9-641d-4be8-8996-27faef03c6ef",
       category: "Sports & Culture",
       title: "Harare Darts Association",
       link: "https://harare-darts-association.vercel.app/"
@@ -417,29 +417,16 @@ const Footer = () => (
           <div className="space-y-4">
             <h4 className="font-bold">Company</h4>
             <ul className="space-y-2 text-white/60 text-sm">
-              <li><a className="hover:text-white transition-colors" href="#">About Us</a></li>
+              <li><a className="hover:text-white transition-colors" href="#about">About Us</a></li>
               <li><a className="hover:text-white transition-colors" href="#projects">Projects</a></li>
-              <li><a className="hover:text-white transition-colors" href="#">Pricing</a></li>
-              <li><a className="hover:text-white transition-colors" href="#">Testimonials</a></li>
-            </ul>
-          </div>
-          <div className="space-y-4">
-            <h4 className="font-bold">Legal</h4>
-            <ul className="space-y-2 text-white/60 text-sm">
-              <li><a className="hover:text-white transition-colors" href="#">Terms of Service</a></li>
-              <li><a className="hover:text-white transition-colors" href="#">Privacy Policy</a></li>
-              <li><a className="hover:text-white transition-colors" href="#">Refund Policy</a></li>
+              <li><a className="hover:text-white transition-colors" href="#pricing">Pricing</a></li>
+              <li><a className="hover:text-white transition-colors" href="#contact">Contact</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div className="border-t border-white/10 pt-10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/40">
         <p>© 2024 primeWeb.studios. All Rights Reserved. Based in Harare, Zimbabwe.</p>
-        <div className="flex gap-6">
-          <a className="hover:text-white transition-colors" href="#">Terms</a>
-          <a className="hover:text-white transition-colors" href="#">Privacy</a>
-          <a className="hover:text-white transition-colors" href="#">Cookies</a>
-        </div>
       </div>
     </div>
   </footer>
